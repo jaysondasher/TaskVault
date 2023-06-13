@@ -13,7 +13,7 @@ struct NewItemView: View {
     
     var body: some View {
         VStack {
-            Text("New ITem")
+            Text("New List Item")
                 .font(.system(size: 32))
                 .fontWeight(.bold)
                 .padding(.top, 50)
