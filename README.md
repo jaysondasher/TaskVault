@@ -10,7 +10,7 @@
     TaskVault is a task management app that uses Firebase for user authentication and persistent storage.
   </p>
 </p>
-
+<br />
 <p align="row">
   <img src= "https://github.com/jaysondasher/TaskVault/assets/58889274/a0757090-32e0-4eec-b16c-1cd881a0dbbe" width="150" >
   <img src= "https://github.com/jaysondasher/TaskVault/assets/58889274/3ad9de8b-8e13-48f1-9949-3d76bca42978" width="150" >
