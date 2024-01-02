@@ -1,6 +1,6 @@
 
 [![Swift Version][swift-image]][swift-url]
-![iOS 16.4+](https://img.shields.io/badge/ios-16.4+-blue.svg)
+![iOS version][ios-image]
 
 
 # TaskVault
@@ -19,7 +19,7 @@
   <img src= "https://github.com/jaysondasher/TaskVault/assets/58889274/cbff4d66-1201-44a8-85de-7618124b177b" width="150" >
 </p>
 
-## Features
+## Functionality
 
 - [x] Create a new account
 - [x] Sign in
@@ -28,11 +28,7 @@
 - [x] Delete task
 - [x] Sign out
 
-## Requirements
-
-- iOS 16.4+
-- Xcode 15
-
 
 [swift-image]:https://img.shields.io/badge/swift-5.0-orange.svg
 [swift-url]: https://swift.org/
+[ios-image]: https://img.shields.io/badge/ios-16.4+-blue.svg
