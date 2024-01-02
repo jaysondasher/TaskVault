@@ -36,7 +36,7 @@ struct ToDoListView: View {
                         .padding(2)
                 }
             }
-            .navigationTitle("To Do List")
+            .navigationTitle("Task Vault")
             .toolbar {
                 Button {
                     // Action

@@ -13,14 +13,14 @@ struct NewItemView: View {
     
     var body: some View {
         VStack {
-            Text("New List Item")
+            Text("Create Vault Task")
                 .font(.system(size: 32))
                 .fontWeight(.bold)
                 .padding(.top, 50)
             
             Form {
                 // Title
-                TextField("Title", text: $viewModel.title)
+                TextField("Task Name", text: $viewModel.title)
                 
                 // Due Date
                 DatePicker("Due Date", selection: $viewModel.dueDate)
