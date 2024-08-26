@@ -1,12 +1,10 @@
-
 [![Swift Version][swift-image]][swift-url]
 ![iOS version][ios-image]
-
 
 # TaskVault
 <br />
 <p>
-    TaskVault is a task management app that uses Firebase for user authentication and persistent storage.
+    TaskVault is a task management app that uses Firebase for user authentication and persistent storage, with a sleek and modern UI built using SwiftUI.
 </p>
 <br />
 <p align="center">
@@ -18,7 +16,8 @@
   <img src= "https://github.com/jaysondasher/TaskVault/assets/58889274/cbff4d66-1201-44a8-85de-7618124b177b" width="150" >
 </p>
 </p>
-## Functionality
+
+# Functionality
 
 - [x] Create a new account
 - [x] Sign in
@@ -27,7 +26,13 @@
 - [x] Delete task
 - [x] Sign out
 
+# Technologies Used
 
-[swift-image]:https://img.shields.io/badge/swift-5.0-orange.svg
+- **Authentication**: Firebase Authentication
+- **Persistent Storage**: Firebase Firestore
+- **UI Framework**: SwiftUI
+- **Platform**: iOS 16.4+
+
+[swift-image]: https://img.shields.io/badge/swift-5.0-orange.svg
 [swift-url]: https://swift.org/
 [ios-image]: https://img.shields.io/badge/ios-16.4+-blue.svg
