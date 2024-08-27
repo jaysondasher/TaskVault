@@ -11,7 +11,6 @@
 		301633A72A36B638008D7A69 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301633A62A36B638008D7A69 /* MainView.swift */; };
 		301633A92A36B639008D7A69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301633A82A36B639008D7A69 /* Assets.xcassets */; };
 		301633AC2A36B639008D7A69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301633AB2A36B639008D7A69 /* Preview Assets.xcassets */; };
-		301633B32A36B772008D7A69 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 301633B22A36B772008D7A69 /* GoogleService-Info.plist */; };
 		301633B62A36B81D008D7A69 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 301633B52A36B81D008D7A69 /* FirebaseAuth */; };
 		301633B82A36B81D008D7A69 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 301633B72A36B81D008D7A69 /* FirebaseFirestore */; };
 		301633BA2A36B81D008D7A69 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 301633B92A36B81D008D7A69 /* FirebaseFirestoreSwift */; };
@@ -34,6 +33,7 @@
 		301633E22A36CB5C008D7A69 /* TVButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301633E12A36CB5C008D7A69 /* TVButtonView.swift */; };
 		301633E42A36D822008D7A69 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301633E32A36D822008D7A69 /* Extensions.swift */; };
 		302CFE1F2A37C32E005E75D1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302CFE1E2A37C32E005E75D1 /* Launch Screen.storyboard */; };
+		30E20EB42C7E540B00CB2DE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30E20EB32C7E540B00CB2DE7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +42,6 @@
 		301633A62A36B638008D7A69 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		301633A82A36B639008D7A69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		301633AB2A36B639008D7A69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		301633B22A36B772008D7A69 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		301633BF2A36BBC3008D7A69 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		301633C12A36BBD2008D7A69 /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
 		301633C32A36BBE0008D7A69 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		301633E12A36CB5C008D7A69 /* TVButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVButtonView.swift; sourceTree = "<group>"; };
 		301633E32A36D822008D7A69 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		302CFE1E2A37C32E005E75D1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		30E20EB32C7E540B00CB2DE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,7 @@
 		301633BE2A36BA28008D7A69 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				301633B22A36B772008D7A69 /* GoogleService-Info.plist */,
+				30E20EB32C7E540B00CB2DE7 /* GoogleService-Info.plist */,
 				301633A42A36B638008D7A69 /* TaskVaultApp.swift */,
 				301633A82A36B639008D7A69 /* Assets.xcassets */,
 				301633E32A36D822008D7A69 /* Extensions.swift */,
@@ -232,9 +232,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				301633AC2A36B639008D7A69 /* Preview Assets.xcassets in Resources */,
+				30E20EB42C7E540B00CB2DE7 /* GoogleService-Info.plist in Resources */,
 				301633A92A36B639008D7A69 /* Assets.xcassets in Resources */,
 				302CFE1F2A37C32E005E75D1 /* Launch Screen.storyboard in Resources */,
-				301633B32A36B772008D7A69 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
