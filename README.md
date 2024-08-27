@@ -33,6 +33,26 @@
 - **UI Framework**: SwiftUI
 - **Platform**: iOS 16.4+
 
+# Setup Instructions
+
+To run this project, you need to have your own Firebase configuration file (`GoogleService-Info.plist`). Here’s how you can set it up:
+
+1. **Create a Firebase Project**:
+   - Go to the [Firebase Console](https://console.firebase.google.com/).
+   - Click on "Add Project" and follow the steps to create a new project.
+
+2. **Add an iOS App to Your Firebase Project**:
+   - In the Firebase Console, click on "Add App" and choose "iOS".
+   - Enter your app's bundle ID (`com.jaysondasher.TaskVault`).
+   - Follow the instructions to download the `GoogleService-Info.plist` file.
+
+3. **Add `GoogleService-Info.plist` to Your Xcode Project**:
+   - Download the `GoogleService-Info.plist` file from Firebase.
+   - Drag and drop the `GoogleService-Info.plist` file into the `TaskVault/Other` folder in your Xcode project.
+
+4. **Run the App**:
+   - After adding the `GoogleService-Info.plist`, build and run the project in Xcode.
+
 [swift-image]: https://img.shields.io/badge/swift-5.0-orange.svg
 [swift-url]: https://swift.org/
 [ios-image]: https://img.shields.io/badge/ios-16.4+-blue.svg
